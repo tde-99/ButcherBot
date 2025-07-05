@@ -442,7 +442,7 @@ async def set_welcome_func(_, message):
             [
                 InlineKeyboardButton(
                     text="More Help",
-                    url=f"t.me/{BOT_USERNAME}?start=help_greetings",
+                    url=f"/{BOT_USERNAME}?start=help_greetings",
                 )
             ],
         ]
